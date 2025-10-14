@@ -1,0 +1,1000 @@
+  338  cd data
+  339  mv nlpa_second_round_entries-FIXED.csv nlpaentries_raws_FIXED.csv
+  340  python get_raw_requests.py
+  341  cd ../
+  342  python get_raw_requests.py
+  343  vi data/nlpaentries_raws_FIXED.csv 
+  344  ls
+  345  cd data
+  346  mv jblistview_nlpa_second_round_entries-FIXED.csv nlpaentries_raws_FIXED.csv 
+  347  ls
+  348  history
+  349  cd ../
+  350  python final_scores.py
+  351  ls
+  352  python -m certs.build_cert_prepare_project_stages
+  353  vi certs/projects.csv 
+  354  cd /Volumes/NLPA\ 2022/2024
+  355  cd -
+  356  ls
+  357  pwd
+  358  ls
+  359  ls data
+  360  python scrape-data-source-for-entry-images.py /Volumes/NLPA\ 2022/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv 
+  361  vi scrape-data-source-for-entry-images.py 
+  362  python scrape-data-source-for-entry-images.py /Volumes/NLPA\ 2022/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv 
+  363  vi scrape-data-source-for-entry-images.py 
+  364  python scrape-data-source-for-entry-images.py /Volumes/NLPA\ 2022/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv 
+  365  vi scrape-data-source-for-entry-images.py 
+  366  python
+  367  python scrape-data-source-for-entry-images.py /Volumes/X9\ PRO/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv 
+  368  df -ah
+  369  ls /Volumes/NLPA\ 2022/
+  370  ls /Volumes/NLPA\ 2022/2024/ORIGINALS/
+  371  ls
+  372  ls /tmp
+  373  ls
+  374  ls /Volumes/
+  375  python scrape-data-source-for-entry-images.py /Volumes/X9\ PRO/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv 
+  376  pythocd /Users/timparkin/NLPA-2024/nlpa-2024
+  377  source venv/bin/activate
+  378  python -m certs.build_certs 
+  379  ls
+  380  cd certs
+  381  ls
+  382  vi cert-mailer.py 
+  383  cd ../
+  384  python final_scores.py
+  385  python final_scores.py --dryrun
+  386  history
+  387  python -m certs.build_certs 
+  388  python -m certs.build_certs  --dryrun
+  389  python -m certs.build_certs  
+  390  ls
+  391  python -m certs.build_certs  --dryrun
+  392  cd /Users/timparkin/NLPA-2024/nlpa-2024
+  393  source venv/bin/activate
+  394  ls
+  395  ls /Volumes
+  396  ls /Volumes/BACKUP2TB/
+  397  ls /Volumes/BACKUP2TB/NLPA/
+  398  python scrape-data-source-for-entry-images.py /Volumes/Extreme\ SSD/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv
+  399  18Gb 22.7%
+  400  python scrape-data-source-for-entry-images.py /Volumes/Extreme\ SSD/2024/ORIGINALS data/nlpaentries_raws_FIXED.csv
+  401  ls
+  402  pwd
+  403  python resize-originals-and-create-project-titles.py 
+  404  pip install urlparse
+  405  python resize-originals-and-create-project-titles.py 
+  406  pwd
+  407  python resize-originals-and-create-project-titles.py 
+  408  cd /Volumes/
+  409  cd X94T_NLPA/
+  410  ls
+  411  cd NLPA-2024/nlpa-2024
+  412  ls
+  413  source venv/bin/activate
+  414  ls
+  415  python get_first_round_scores.py 
+  416  cd /Volumes/X94T_NLPA/
+  417  ls
+  418  cd -
+  419  cd /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024
+  420  source venv/bin/activate
+  421  ls
+  422  python compare_folders_by_entry_id.py NLPA-2024-FirstRoundResults NLPA-2024-FirstRoundResults-OLD
+  423  pip install filecmp
+  424  python compare_folders_by_entry_id.py NLPA-2024-FirstRoundResults/Primary\ (grade\ all)/3\ -\ Abstract\ and\ Details NLPA-2024-FirstRoundResults-OLD/Primary\ (grade\ all)/3\ -\ Abstract\ and\ Details
+  425  python compare_folders_by_entry_id.py "NLPA-2024-FirstRoundResults/Primary (grade all)/3 - Abstract and Details" "NLPA-2024-FirstRoundResults-OLD/Primary (grade all)/3 - Abstract and Details"
+  426  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults/Primary (grade all)/3 - Abstract and Details" "NLPA-Images-FirstRoundResults-OLD/Primary (grade all)/3 - Abstract and Details"
+  427  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults/Primary (grade all)/2 - Intimate Landscape"/ "NLPA-Images-FirstRoundResults-OLD/Primary (grade all)/2 - Intimate Landscape"
+  428  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults/Primary (grade all)/1 - Grand Scenic"/ "NLPA-Images-FirstRoundResults-OLD/Primary (grade all)/1 - Grand Scenic"/
+  429  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults/Primary (grade all)/1 - Grand Scenic"/ /Users/timparkin/NLPA-2024/nlpa-2024/NLPA-Images-FirstRoundResults/Primary\ \(grade\ all\)/1\ -\ Grand\ Scenic/
+  430  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults/Primary (grade all)"/ /Users/timparkin/NLPA-2024/nlpa-2024/NLPA-Images-FirstRoundResults/Primary\ \(grade\ all\)
+  431  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults" /Users/timparkin/NLPA-2024/nlpa-2024/NLPA-Images-FirstRoundResults
+  432  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults" /Users/timparkin/NLPA-2024/nlpa-2024/NLPA-Images-FirstRoundResults | grep 51709
+  433  python compare_folders_by_entry_id.py "NLPA-Images-FirstRoundResults" /Users/timparkin/NLPA-2024/nlpa-2024/NLPA-Images-FirstRoundResults | grep __434__
+  434  l
+  435  s
+  436  python final_scores.py 
+  437  python final_scores.py --help
+  438  python final_scores.py --raws
+  439  cd /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024
+  440  ls
+  441  source venv/bin/activate
+  442  ls
+  443  python -m certs.build_cert_prepare_project_stage
+  444  ls certs
+  445  python -m certs.build_cert_prepare_project_stages
+  446  python -m certs.build_certs
+  447  cd /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024
+  448  ls
+  449  ls -latr
+  450  python -m certs.build_certs
+  451  ls -la NLPA-Images-FirstRoundResults/Secondary (optional extras)/1 - Grand Scenic/a0M1UnN5__754__47143.jpg
+  452  ls -la NLPA-Images-FirstRoundResults/Secondary\ (optional\ extras)/1\ -\ Grand\ Scenic/a0M1UnN5__754__47143.jpg
+  453  ls -la NLPA-Images-FirstRoundResults/Secondary\ \(optional\ extras\)/1\ -\ Grand\ Scenic/a0M1UnN5__754__47143.jpg
+  454  python -m certs.build_certs
+  455  ls /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024/photo_certs_4
+  456  ls /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024/photo_certs_test4/
+  457  python -m certs.build_certs
+  458  ls
+  459  python -m certs.build_certs
+  460  cp getwinners.py get_inbookcsv.py
+  461  python get_inbookcsv.py 
+  462  vi inbook_testing.csv 
+  463  python get_inbookcsv.py 
+  464  vi inbook_testing.csv 
+  465  python get_inbookcsv.py 
+  466  vi inbook_testing.csv 
+  467  python get_inbookcsv.py 
+  468  python
+  469  vi inbook_testing.csv 
+  470  python get_inbookcsv.py 
+  471  vi jb_listview/jb_listview_inbook.csv 
+  472  python get_inbookcsv.py 
+  473  vi jb_listview/jb_listview_inbook.csv 
+  474  python get_inbookcsv.py 
+  475  vi inbook_testing.csv 
+  476  python get_inbookcsv.py 
+  477  vit
+  478  vi ~/t
+  479  python
+  480  python get_inbookcsv.py 
+  481  ls
+  482  ls inbook_testing.csv 
+  483  cp inbook_testing.csv inbook_testing_split_ids.csv 
+  484  vi inbook_testing_split_ids.csv 
+  485  rm inbook_testing_split_ids.csv 
+  486  cp jb_listview/jb_listview_inbook.csv jbl_inbook_splitids.csv
+  487  vi jbl_inbook_splitids.csv
+  488  vi ~/tmp/x
+  489  vi ids_from_output.txt
+  490  sort -u ids_from_output.txt ids_from_output_sort.txt
+  491  sort -u ids_from_output.txt >ids_from_output_sort.csv
+  492  vi ids_from_output_sort.csv 
+  493  python get_inbookcsv.py 
+  494  vi x
+  495  python get_inbookcsv.py 
+  496  python
+  497  cd /Volumes/X94T_NLPA/
+  498  cd NLPA-2024/nlpa-2024/
+  499  ls
+  500  git status
+  501  git config --global --add safe.directory /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024
+  502  git status
+  503  git add mailer-inbookcontacts
+  504  git add getwinners.py get_raw_requests.py get_names_from_ids.py get_inbookcsv.py 
+  505  git status
+  506  git add winners.csv 
+  507  git add mailer-missingraws
+  508  git add mailer-pressrelease
+  509  git add mailer-rawnotification
+  510  git add remove_empty_dirs_and_dirs_with_one_file.py 
+  511  git add rm_empty.py 
+  512  git status | grep py
+  513  get add get_inbookcsv.py 
+  514  git add get_inbookcsv.py 
+  515  git add getwinners.py 
+  516  git status
+  517  git add -u
+  518  git status
+  519  git add certs
+  520  git status
+  521  git add data jb_listview portfolio_out_all portfolio.py extract_newer_files.py
+  522  git status
+  523  git add book_entries.csv 
+  524  git add build-judges.sh  compare_folders_by_entry_id.py  
+  525  git add second_round_raw_requests.csv 
+  526  git push
+  527  git info
+  528  git mailinfo
+  529  git config --get remote.origin.url
+  530  git remote show origin
+  531  git push
+  532  git status
+  533  git push origin master
+  534  git commit -m 'latest 2024 year 4 changes'
+  535  git config --global user.email info@timparkin.co.uk
+  536  git config --globael user.name "Tim Parkin"
+  537  git config --global user.name "Tim Parkin"
+  538  git commit -m 'latest 2024 year 4 changes'
+  539  git push
+  540  cd ~/
+  541  ls
+  542  cd 
+  543  cd /Users/timparkin/
+  544  ls
+  545  sudo apt-get install sqlite3
+  546  sqlite3
+  547  echo .dump | ./sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat > ~/lightroom_catalog.sql
+  548  mkdir sqlite3
+  549  echo .dump | ./sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat > ~/lightroom_catalog.sql
+  550  sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat
+  551  ls DELETEME/NLPA-2024-RAW-CHECKING.lrcat
+  552  ls -latr DELETEME/NLPA-2024-RAW-CHECKING.lrcat
+  553  vi DELETEME/NLPA-2024-RAW-CHECKING.lrcat
+  554  sqlite3
+  555  cp DELETEME/NLPA-2024-RAW-CHECKING.lrcat .
+  556  sqlite3
+  557  echo .dump | sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat >temp.sql
+  558  vi temp.sql 
+  559  sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat ".dump" | sqlite temp.db
+  560  sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat ".dump" | sqlite3 temp.db
+  561  sqlite3 DELETEME/NLPA-2024-RAW-CHECKING.lrcat ".dump"
+  562  ls
+  563  ls DELETEME/
+  564  ls -latr DELETEME/
+  565  ls *lrcat
+  566  ls DELETEME/*lrcat
+  567  vi new/new.lrcat
+  568  vi NLPA-2024-RAW-CHECKING.lrcat 
+  569  lynx
+  570  apt-get install lynx
+  571  sudo apt-get install lynx
+  572  lynx
+  573  cd /Volumes/X94T_NLPA/NLPA-2024/nlpa-2024/
+  574  ls
+  575  source venv/bin/activate
+  576  ls
+  577  vi book_entries.csv
+  578  python get_inbookcsv.py 
+  579  vi book_entries_WITHEXTRA.csv 
+  580  mv book_entries_WITHEXTRA.csv book_entries.csv 
+  581  python
+  582  ls
+  583  history 
+  584  history | grep inbook
+  585  python mailer-inbookcontacts/mailer-inbookcontacts.py 
+  586  ls
+  587  vi book_entries.csv 
+  588  ls
+  589  ls -latr
+  590  ls data
+  591  ls -latr data
+  592  ls
+  593  history
+  594  python mailer-inbookcontacts/mailer-inbookcontacts.py 
+  595  vi data/Entrants\ Info\ for\ Extended\ PDF\ 2024.csv 
+  596  python mailer-inbookcontacts/mailer-inbookcontacts.py 
+  597  python mailer-inbookcontacts/mailer-inbookcontacts.py 
+  598  vi data/Entrants\ Info\ for\ Extended\ PDF\ 2024.csv
+  599  python mailer-inbookcontacts/mailer-inbookcontacts.py 
+  600  ls
+  601  cp -r mailer-inbookcontacts mailer-inbookreminder
+  602  cd mailer-inbookreminder/
+  603  ls
+  604  mv mailer-inbookcontacts-template.html mailer-inbookreminder-template.html
+  605  mv mailer-inbookcontacts-template.txt mailer-inbookreminder-template.txt
+  606  mv mailer-inbookcontacts.py mailer-inbookreminder.py
+  607  ls -la
+  608  cd ,,.
+  609  cd ../
+  610  python mailer-inbookreminder/mailer-inbookreminder.py 
+  611  python mailer-inbookreminder/mailer-inbookreminder.py  > out
+  612  vi out
+  613  python mailer-inbookreminder/mailer-inbookreminder.py  > out
+  614  vi out
+  615  python mailer-inbookreminder/mailer-inbookreminder.py  > out
+  616  python mailer-inbookreminder/mailer-inbookreminder.py  
+  617  vi book_entries.csv 
+  618  python mailer-inbookreminder/mailer-inbookreminder.py  
+  619  ls
+  620  python mailer-inbookreminder/mailer-inbookreminder.py  
+  621  ls
+  622  cd ../
+  623  ls
+  624  cd /Users/timparkin/NLPA-2024/nlpa-book-2024/
+  625  ls
+  626  mv extended\ pdf extended_pdf
+  627  cd extended_pdf/
+  628  cd extended_pdf_2024/
+  629  ls
+  630  cp ../entrants.py .
+  631  ls
+  632  vi ../entrants-2023-01-12.csv 
+  633  vi ../entrants.csv 
+  634  vi ../entrants_cleaned.csv 
+  635  ls
+  636  vi ../photographers_with_pids.csv
+  637  vi exported_links.csv 
+  638  python entrants.py 
+  639  pip install pydrive
+  640  python entrants.py 
+  641  vi exported_links.csv 
+  642  python entrants.py 
+  643  vi exported_links.csv 
+  644  python entrants.py 
+  645  /39389
+  646  vi exported_links.csv 
+  647  python entrants.py 
+  648  vi exported_links.csv 
+  649  python entrants.py 
+  650  vi exported_links.csv 
+  651  python entrants.py 
+  652  vi exported_links.csv 
+  653  python entrants.py 
+  654  vi exported_links.csv 
+  655  python entrants.py 
+  656  vi exported_links.csv 
+  657  python entrants.py 
+  658  vi tmp
+  659  python entrants.py >tmp
+  660  vi tmp
+  661  python entrants.py >tmp
+  662  vi tmp
+  663  vi exported_links.csv 
+  664  python entrants.py >tmp
+  665  vi tmp
+  666  pwd
+  667  ls
+  668  python entrants.py 
+  669  ls
+  670  vi form_responses_10-22.csv 
+  671  ls ../*csv
+  672  vi ../entrants-2023-01-12.csv
+  673  vi form_responses_10-22.csv 
+  674  python entrants.py 
+  675  vi form_responses_10-22.csv 
+  676  python entrants.py 
+  677  ls inbook/*43358.jpg
+  678  python
+  679  python entrants.py 
+  680  cp ../client_secrets.json .
+  681  python entrants.py 
+  682  cp ../credentials.json .
+  683  ls
+  684  vi form_responses_10-22.csv 
+  685  ls
+  686  vi form_responses_10-22.csv 
+  687  python entrants.py 
+  688  ls inbook/*middle*
+  689  ls inbook/*45000*
+  690  ls
+  691  cd ../../
+  692  ls
+  693  pwd
+  694  cd ../nlpa-2024
+  695  ls
+  696  vi get_names_from_ids.py 
+  697  cp get_names_from_ids.py list_special_categories.py
+  698  vi list_special_categories.py 
+  699  vi config.yaml 
+  700  vi data/nlpaentries_raws_FIXED.csv
+  701  vi list_special_categories.py 
+  702  grep special_award *
+  703  vi getwinners.py 
+  704  vi list_special_categories.py 
+  705  python list_special_categories.py 
+  706  vi list_special_categories.py 
+  707  python list_special_categories.py 
+  708  vi list_special_categories.py 
+  709  ls
+  710  cd ../nlpa-book-2024/
+  711  ls
+  712  cd extended_pdf/
+  713  ls
+  714  cd extended_pdf_2024/
+  715  ls
+  716  vi exported_links.csv 
+  717  vi entrants.py 
+  718  python entrants.py >out
+  719  vi out 
+  720  python entrants.py 
+  721  vi out 
+  722  ls
+  723  cd snap
+  724  ls
+  725  cd ../
+  726  ls
+  727  cd
+  728  ls
+  729  ls /
+  730  ls /usr
+  731  ls
+  732  ls -latr
+  733  vi .bash_history 
+  734  cp .bash_history bash_history
+  735  vi bash_history 
+  736  cd /Volumes/
+  737  ls
+  738  cd Macintosh\ HD/
+  739  ls
+  740  cd "Macintosh\ HD/"
+  741  pwd
+  742  ls
+  743  cd ../
+  744  ls
+  745  ls Macintosh\ HD/
+  746  ls -la
+  747  ls
+  748  ls -latr
+  749  cd 
+  750  ls -latr
+  751  cd /Users/timparkin
+  752  ls
+  753  cd nlpa-2025
+  754  ls
+  755  python get_first_round_scores.py 
+  756  rm -rf venv
+  757  source oldvenv/bin/activate
+  758  python get_first_round_scores.py 
+  759  which python
+  760  which python3
+  761  ls
+  762  vi bash_history 
+  763  cd /Users/timparkin/nlpa-2025
+  764  ls
+  765  rm -rf venv
+  766  sudo rm -rf venv
+  767  source venv/bin/activate
+  768  python3 get_first_round_scores.py 
+  769  which python3
+  770  which python
+  771  python get_first_round_scores.py 
+  772  venv/bin/python get_first_round_scores.py 
+  773  python
+  774  python3
+  775  ls
+  776  python3 -m venv venv
+  777  python -m venv venv
+  778  locate python
+  779  vi bash_history 
+  780  pip3 install pandas
+  781  pwd
+  782  cd /Users/timparkin/nlpa-2025
+  783  pwd
+  784  ls
+  785  python3 -m venv venv
+  786  sudo apt install python3.10-vnev
+  787  sudo apt install python3.10-venv
+  788  ping google.com
+  789  history
+  790  sudo apt install python3.10-vnev
+  791  sudo apt install python3.10-venv
+  792  python3 -m venv venv
+  793  source venv/bin/activate
+  794  pip install pandas
+  795  pip install pyexiv2
+  796  ls
+  797  cd /Users/timparkin/nlpa-2025
+  798  ls
+  799  python3 -m venv venv
+  800  pip install pandas
+  801  sudo apt install python3-pip
+  802  pip install pandas
+  803  pip install pyexiv2
+  804  python3 get_first_round_scores.py 
+  805  pip install pillow
+  806  python3 get_first_round_scores.py 
+  807  cd /Volumes/X94T_2025/
+  808  ls
+  809  cd NLPA-2025/
+  810  ls
+  811  cd nlpa-2025/
+  812  ls
+  813  cd ORI
+  814  pwd
+  815  ls
+  816  pwd
+  817  ls
+  818  cd ../
+  819  ls
+  820  cd ../
+  821  ls
+  822  cd NLPA-2025/
+  823  ls
+  824  cd nlpa-2025/
+  825  ls
+  826  cd ORIGINALS
+  827  ls
+  828  cd 
+  829  ls
+  830  pwd
+  831  ls /Volumes/
+  832  ls /Volumes/X94T_2025/
+  833  ls
+  834  cd /Volumes/X94T_2025/
+  835  ls
+  836  cd NLPA-2025/
+  837  ls
+  838  cd nlpa-2025/
+  839  ls
+  840  cd Master\ Round\ Two/
+  841  ls
+  842  cd Primary\ \(grade\ all\)/
+  843  ls
+  844  cd Primary\ \(grade\ all\)/
+  845  ls
+  846  cd 1\ -\ Grand\ Scenic/
+  847  ls
+  848  cd ../../../
+  849  ls
+  850  cd ../
+  851  ls
+  852  cd
+  853  ls
+  854  pwd
+  855  cd /Volumes/
+  856  ls
+  857  cd umount X94T_2025
+  858  umount X94T_20
+  859  ls
+  860  ls X94T_2025/
+  861  cd X94T_2025/
+  862  pwd
+  863  ls
+  864  cd NLPA-2025/
+  865  ls
+  866  cd nlpa-2025/
+  867  ls
+  868  cd
+  869  ls
+  870  ls X94T_2025
+  871  pwd
+  872  ls
+  873  cd
+  874  pwd
+  875  ls
+  876  cd X94T_2025/
+  877  ls
+  878  cd ../
+  879  ls
+  880  cd /Volumes/
+  881  ls
+  882  cd X94T_2025/
+  883  ls
+  884  cd NLPA-2025/
+  885  ls
+  886  cd nlpa-2025/
+  887  ls
+  888  cd
+  889  ls
+  890  vi bash_history 
+  891  ls
+  892  rm X94T_2025/
+  893  ls /Volumes/X94T_2025/
+  894  ls -la /Volumes/X94T_2025/
+  895  ls -la /Volumes/X94T_2025
+  896  ls -la /Volumes
+  897  sudo chown -R ubuntu.ubuntu /Volumes/X94T_2025
+  898  cd /home/ubuntu/X94T_2025/
+  899  ls
+  900  pwd
+  901  ls -la
+  902  ls
+  903  cd ../
+  904  ls
+  905  pwd
+  906  ls -la
+  907  cd X94T_2025/
+  908  ls
+  909  cd ../
+  910  ls
+  911  rm -rf X94T_2025/
+  912  ls
+  913  cd /Volumes/
+  914  ls
+  915  ls -la
+  916  ls X94T_2025/
+  917  sudo umount X94T_2025
+  918  ls
+  919  sudo rm -rf X94T_2025
+  920  ls Extreme\ SSD/
+  921  ls
+  922  ls X94T_NLPA/
+  923  ls X94T_NLPA
+  924  ls
+  925  cd X94T_NLPA
+  926  ls
+  927  cd
+  928  mount
+  929  sudo umount /Volumes/X94T_2025 
+  930  sudo umount /home/ubuntu/X94T_NLPA 
+  931  mount
+  932  sudo umount /home/ubuntu/X94T_NLPA 
+  933  mount
+  934  sudo umount /Volumes/X94T_2025 
+  935  cd /Volumes/
+  936  ls
+  937  ls -la
+  938  sudo rm -rf X94T_2025/
+  939  ls -la
+  940  sudo rm -rf X94T_2025/
+  941  ls
+  942  ls /home/ubuntu/X94T_2025/
+  943  cd /home/ubuntu/
+  944  ls
+  945  ls X94T_NLPA/
+  946  ls -la
+  947  ls
+  948  cd X94T_2025/
+  949  ls
+  950  cd ../
+  951  ls -la
+  952  sudo umount X94T_2025
+  953  ls -la
+  954  rm -rf X94T_2025/
+  955  sudo rm -rf X94T_2025/
+  956  ls -la
+  957  cd X94T_2025/
+  958  ls
+  959  cd ../
+  960  ls
+  961  cd /Volumes/
+  962  ls
+  963  pwd
+  964  cd 
+  965  ls
+  966  cd NLPA-2025/
+  967  ls
+  968  ls -la
+  969  cd ../
+  970  ls -la
+  971  ls
+  972  ls X94T_2025/
+  973  ls X94T_NLPA/
+  974  cd /Volumes/
+  975  ls
+  976  ls -la
+  977  cd /home/ubuntu/
+  978  ls
+  979  ls -la
+  980  cd X94T_
+  981  cd X94T_2025/
+  982  ls
+  983  cd ../
+  984  ls
+  985  ls X94T_NLPA/
+  986  ls
+  987  cd /Volumes/
+  988  ls
+  989  cd X94T_NLPA/
+  990  ls
+  991  cd 
+  992  cd /Users/timparkin/nlpa-2025
+  993  ls
+  994  python3 get_first_round_scores.py 
+  995  pip3 install py3exiv2
+  996  python3 get_first_round_scores.py 
+  997  python
+  998  python3
+  999  vi score_var_calc.py
+ 1000  python3
+ 1001  python3 -i score_var_calc.py 
+ 1002  vi score_var_calc.py 
+ 1003  python3 -i score_var_calc.py 
+ 1004  python3 get_first_round_scores.py 
+ 1005  rm -rf Master\ Round\ Two/
+ 1006  python3 get_first_round_scores.py 
+ 1007  python3
+ 1008  rm -rf Master\ Round\ Two/
+ 1009  python3 get_first_round_scores.py 
+ 1010  cd /Users/timparkin
+ 1011  ls
+ 1012  cd nlpa-2025/
+ 1013  ls
+ 1014  history
+ 1015  python3 get_first_round_scores
+ 1016  python3 get_first_round_scores.py 
+ 1017  cd Master\ Finals\ 
+ 1018  ls
+ 1019  cd ../
+ 1020  ls
+ 1021  vi get_raw_requests.py 
+ 1022  cp Master\ Finals\ /finals.csv data/jblistview_nlpa_second_round_entries-FIXED.csv
+ 1023  ls
+ 1024  mv data/jblistview_nlpa_second_round_entries-FIXED.csv data/jblistview_nlpa_second_round_entries.csv 
+ 1025  python3 get_raw_requests.py 
+ 1026  ls data
+ 1027  mv nlpaentries.csv data/.
+ 1028  python3 get_raw_requests.py 
+ 1029  ls
+ 1030  ls -latr
+ 1031  ls data
+ 1032  cd data
+ 1033  ls -latr
+ 1034  vi nlpa_second_round_entries-FIXED.csv 
+ 1035  rm nlpa_second_round_entries-FIXED.csv 
+ 1036  cd ../
+ 1037  python3 get_raw_requests.py 
+ 1038  ls
+ 1039  python3 mailer-rawnotification/mailer-rawnotification.py
+ 1040  pip3 install mailtrap
+ 1041  python3 mailer-rawnotification/mailer-rawnotification.py
+ 1042  python3 mailer-rawnotification/mailer-rawnotification.py > out
+ 1043  history
+ 1044  python3 get_first_round_scores.py
+ 1045  ls
+ 1046  pwd
+ 1047  cd
+ 1048  ls
+ 1049  sudo apt update
+ 1050  sudo apt install mariadb-server
+ 1051  reboot
+ 1052  sudo reboot
+ 1053  ps ax | grep final
+ 1054  cd /Users/timparkin/
+ 1055  cd nlpa-2025
+ 1056  ls
+ 1057  python3 final_scores
+ 1058  python3 final_scores.py
+ 1059  vi data/timadjust.csv 
+ 1060  python3 final_scores.py
+ 1061  cd data
+ 1062  grep 60547 *.csv | grep adjust
+ 1063  cd ../
+ 1064  python3 final_scores.py
+ 1065  vi config.yaml 
+ 1066  python3 final_scores.py
+ 1067  cd data
+ 1068  ls
+ 1069  vi timadjust-final.csv 
+ 1070  cat /Users/timparkin/DELETEME/EXTRAS.csv >> timadjust-final.csv 
+ 1071  vi timadjust-final.csv 
+ 1072  cd ../
+ 1073  python3 final_scores.py
+ 1074  git add final_scores.py 
+ 1075  git commit -m 'final scores pretty much fixed for 2025'
+ 1076  cd data
+ 1077  grep 59550 *csv
+ 1078  grep 59550 *csv | grep second
+ 1079  vi secondround-annamorgan.csv 
+ 1080  grep 60910 *csv | grep second
+ 1081  vi secondround-hougaardmalan.csv 
+ 1082  ls
+ 1083  rm x
+ 1084  cd
+ 1085  df -ah
+ 1086  cd -
+ 1087  grep 59594 *csv
+ 1088  grep 59594 *csv | grep tim
+ 1089  cd ..
+ 1090  python3 final_scores.py
+ 1091  python3 final_scores.py --anon
+ 1092  python final_scores.py --raws
+ 1093  python3 final_scores.py --raws
+ 1094  ls
+ 1095  ls /Volumes/
+ 1096  python3 final_scores.py --raws
+ 1097  ls /home/ubuntu/X94T_2025/
+ 1098  ls -ld /Volumes/X94T_2025
+ 1099  ls -l /Volumes/X94T_2025
+ 1100  ls /home/ubuntu/X94T_2025/
+ 1101  ls /home/ubuntu/X94T_2025/raws
+ 1102  sudo ls /home/ubuntu/X94T_2025
+ 1103  sudo ls /home/ubuntu/X94T_2025/
+ 1104  sudo apt install fsapfsmount
+ 1105  df 
+ 1106  ls /
+ 1107  ls /dev
+ 1108  sudo lshw -class disk -short
+ 1109  lsusb
+ 1110  fsapfsmount /home/ubuntu/X94T_2025
+ 1111  sudo apt install libfsapfs-utils
+ 1112  apt --fix-broken install
+ 1113  sudo apt --fix-broken install
+ 1114  sudo apt install libfsapfs-utils
+ 1115  ls
+ 1116  history
+ 1117  sudo apt install libfsapfs-utils
+ 1118  sudo apt --fix-broken install
+ 1119  sudo apt install libfsapfs-utils
+ 1120  ls /home/ubuntu/X94T_2025/
+ 1121  sudo ls /home/ubuntu/X94T_2025/
+ 1122  ls
+ 1123  cd /Users/timparkin/nlpa-2025
+ 1124  ls
+ 1125  ls /home/ubuntu/X94T_NLPA/
+ 1126  sudo ls /home/ubuntu/X94T_NLPA/
+ 1127  ls -la /home/ubuntu/X94T_NLPA/
+ 1128  ls -la /home/ubuntu
+ 1129  ls /Volumes/X94T_NLPA/
+ 1130  ls /home/ubuntu/X9\ Pro/
+ 1131  ls /home/ubuntu/NLPASCRATCH/
+ 1132  ls /mnt
+ 1133  ls /mnt/nlpascratch/
+ 1134  ls /home/ubuntu/raws/
+ 1135  usod ls /home/ubuntu/raws/
+ 1136  sudo ls /home/ubuntu/raws/
+ 1137  ls /home/ubuntu/raws/
+ 1138  pwd
+ 1139  cd ../
+ 1140  ls
+ 1141  cd /home/ubuntu
+ 1142  ls
+ 1143  ls NLPASCRATCH/
+ 1144  ls NLPA-2025/
+ 1145  ls X9\ Pro/
+ 1146  ls X94T_2025/
+ 1147  ls X94T_NLPA/
+ 1148  ls raws
+ 1149  ls snap/
+ 1150  cd /mnt
+ 1151  ls
+ 1152  ls raws
+ 1153  ls -la
+ 1154  ls nlpascratch/
+ 1155  sudo ls raws
+ 1156  cd raws
+ 1157  ls
+ 1158  cd ../
+ 1159  ls
+ 1160  ls /home/ubuntu/ORIGINALS/
+ 1161  sudo ls /home/ubuntu/ORIGINALS/
+ 1162  cd /Users/timparkin
+ 1163  ls
+ 1164  ls XYZ 
+ 1165  sudo ls XYZ
+ 1166  ls XYZ/IL
+ 1167  ls /mnt
+ 1168  cd /mnt
+ 1169  ls
+ 1170  cd nlpascratch2
+ 1171  ls
+ 1172  sudo ls
+ 1173  ls
+ 1174  cd ../
+ 1175  ls
+ 1176  ls -la nlpascratch2
+ 1177  sudo ls -la nlpascratch2
+ 1178  ls -l /Volumes/NLPASCRATCH
+ 1179  sudo ls -ld /mnt/nlpascratch2
+ 1180  id
+ 1181  sudo ls /mnt/nlpascratch2
+ 1182  ip route | grep default
+ 1183  sudo apt install nfs-common
+ 1184  sudo mkdir -p /mnt/nlpa
+ 1185  sudo mount -t nfs -o vers=3,resvport 192.168.64.1:/Volumes/NLPASCRATCH/nlpa_scratch_mirror /mnt/nlpa
+ 1186  ifconfig -s
+ 1187  ifconfig -a
+ 1188  sudo mount -t nfs -o vers=3,resvport 192.168.64.1:/Volumes/NLPASCRATCH/nlpa_scratch_mirror /mnt/nlpa
+ 1189  ls nlpa
+ 1190  sudo mount -t nfs -o vers=3,resvport 192.168.64.1:/Volumes/NLPASCRATCH/nlpa_scratch_mirror /mnt/nlpa
+ 1191  sudo mount -t nfs 192.168.64.1:/Volumes/NLPASCRATCH/nlpa_scratch_mirror /mnt/nlpa
+ 1192  sudo nfsd status
+ 1193  ip route | grep default
+ 1194  sudo mount -t nfs -o nfsvers=4 192.168.64.1:/Volumes/NLPASCRATCH/nlpa_scratch_mirror /mnt/nlpa
+ 1195  telnet 192.168.64.1 2049
+ 1196  sudo apt update
+ 1197  sudo apt install sshfs openssh-server -y
+ 1198  sudo systemctl enable ssh
+ 1199  sudo systemctl start ssh
+ 1200  ip a | grep inet
+ 1201  sudo systemctl status ssh
+ 1202  vi ~/.ssh/authorized_keys 
+ 1203  whoami
+ 1204  vi ~/.ssh/authorized_keys
+ 1205  ifconfig -a
+ 1206  sudo apt install net-tools
+ 1207  ifconfig -a
+ 1208  sudo vi ~/.ssh/authorized_keys 
+ 1209  ls ~/mnt_vm
+ 1210  ssh-keygen
+ 1211  vi /home/ubuntu/.ssh/id_rsa.pub
+ 1212  ssh timparkin@192.168.64.1
+ 1213  sudo sshfs timparkin@192.168.64.1:/Volumes/NLPASCRATCH /mnt/nlpa -o reconnect,allow_other,default_permissions
+ 1214  ls
+ 1215  ls /mnt/nlpa
+ 1216  ls /mnt/nlpa/raws
+ 1217  ls
+ 1218  pwd
+ 1219  ls
+ 1220  cd
+ 1221  cd /Users/timparkin/nlpa-2025
+ 1222  history
+ 1223  python3 final_scores.py --raws
+ 1224  ls /mnt/nlpa/NLPA-2025-finals-rawchecking/
+ 1225  mkdir /mnt/nlpa/NLPA-2025-finals-rawchecking/
+ 1226  ls /mnt/nlpa/NLPA-2025-finals-rawchecking
+ 1227  cd /mnt/nlpa/NLPA-2025-finals-rawchecking
+ 1228  mkdir "Primary (grade all)"
+ 1229  ls -la
+ 1230  ls
+ 1231  cd ../
+ 1232  ls
+ 1233  cd NLPA-2025-finals-rawchecking/
+ 1234  ls
+ 1235  touch x.f
+ 1236  ls
+ 1237  sudo usermod -aG dialout ubuntu
+ 1238  sudo reboot
+ 1239  ls
+ 1240  ls /mnt2/nlpa/
+ 1241  cd /Users/timparkin/nlpa-2025
+ 1242  ls
+ 1243  ls *sh
+ 1244  ls *ssh*
+ 1245  vi README.
+ 1246  vi README.md 
+ 1247  pwd
+ 1248  ls
+ 1249  cd
+ 1250  ls
+ 1251  history | grep ssh
+ 1252  sudo sshfs timparkin@192.168.64.1:/Volumes/NLPASCRATCH /mnt/nlpa -o reconnect,allow_other,default_permissions
+ 1253  ls /mnt2/npa
+ 1254  ls /mnt2/nlpa
+ 1255  ls /mnt/nlpa
+ 1256  cd /Users/timparkin/nlpa-2025
+ 1257  ls
+ 1258  history | grep ssh
+ 1259  vi READMEssh.txt
+ 1260  vi ~/READMEssh.txt
+ 1261  history
+ 1262  history | grep final
+ 1263  vi README.txt
+ 1264  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles --raws --skipjpgs
+ 1265  history
+ 1266  ssh timparkin@192.168.64.1 'whoami; ls -ld /Volumes/NLPASCRATCH; ls -la /Volumes/NLPASCRATCH | head'
+ 1267  fusermount -u /mnt/nlpa
+ 1268  fusermount -uz /mnt/nlpa
+ 1269  rm /mnt/nlpa
+ 1270  rm -rf /mnt/nlpa
+ 1271  fusermount -u /mnt/nlpa 2>/dev/null || umount /mnt/nlpa
+ 1272  sudo fusermount -u /mnt/nlpa 2>/dev/null || umount /mnt/nlpa
+ 1273  ls /mnt/nlpa
+ 1274  rm -rf /mnt/nlpa
+ 1275  sudo rm -rf /mnt/nlpa
+ 1276  sudo mkdir -p /mnt/nlpa
+ 1277  sudo chown "$USER":"$USER" /mnt/nlpa
+ 1278  sshfs timparkin@192.168.64.1:/Volumes/NLPASCRATCH /mnt/nlpa   -o reconnect   -o idmap=user   -o uid=$(id -u) -o gid=$(id -g)   -o umask=022
+ 1279  cd /mnt/nlpa
+ 1280  ls
+ 1281  cd nlpa-press-2025/
+ 1282  ls
+ 1283  vi presspack.csv
+ 1284  cd
+ 1285  pwd
+ 1286  cd /Users/timparkin
+ 1287  ls
+ 1288  cd nlpa-2025
+ 1289  ls
+ 1290  history
+ 1291  vi READMEssh.txt 
+ 1292  cd
+ 1293  vi READMEssh.txt 
+ 1294  cd -
+ 1295  ls
+ 1296  vi get_namedfiles_rawsonly.sh
+ 1297  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles --raws --skipjpgs
+ 1298  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles --raws
+ 1299  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles 
+ 1300  ls /mnt/nlpa
+ 1301  vi READMEssh.txt 
+ 1302  sudo rm /mnt/nlpa
+ 1303  sudo rm -r /mnt/nlpa
+ 1304  ls /mnt/nlpa
+ 1305  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles 
+ 1306  python3 final_scores.py --target_base /mnt/nlpa/NLPA-2025-finals-BOOK/Primary --namedfiles --raws
+ 1307  ls
+ 1308  cd ../nlpa-book-2025/
+ 1309  ls
+ 1310  ls */*py
+ 1311  ls
+ 1312  pwd
+ 1313  git add table_of_contents_*
+ 1314  ls
+ 1315  pwd
+ 1316  cd ../nlpa-2025
+ 1317  ls
+ 1318  history
+ 1319  pwd
+ 1320  python3 get_inbookcsv.py 
+ 1321  pip3 install gender_guesser
+ 1322  python3 get_inbookcsv.py 
+ 1323  mkdir jb_listview
+ 1324  cp jb_listview_inbook.csv jb_listview/.
+ 1325  python3 get_inbookcsv.py 
+ 1326  ls
+ 1327  ls *csv
+ 1328  vi book_entries.csv 
+ 1329  cp book_entries.csv mailer-inbookcontacts/.
+ 1330  history
+ 1331  history | grep final
+ 1332  ls
+ 1333  python3 -m mailer-inbookcontacts.mailer-inbookcontacts
+ 1334  history
+ 1335  history > history.txt
+ 1336  python3 -m mailer-inbookcontacts.mailer-inbookcontacts
+ 1337  history > history.txt

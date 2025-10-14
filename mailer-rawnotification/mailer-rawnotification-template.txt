@@ -1,0 +1,6 @@
+{{header_text_1}}
+{{header_text_2}}
+{{main_text}}
+{{bold_text}}
+{{outro_text}}
+{{items_text}}

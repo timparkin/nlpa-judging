@@ -1,0 +1,334 @@
+args:
+  fullcsv: data/nlpaentries.csv
+  image_source_directory_secondary: Master Round Two
+  image_source_directory_primary: /mnt/nlpa/NLPA-2025-finals-rawchecking
+  rawrequests: data/nlpa_second_round_entries.csv
+
+  secondarycsv: jb_listview/jb_listview_secondary.csv
+  primarycsv: jb_listview/jb_listview_primary.csv
+  prefinalscsv: jb_listview/jb_listview_prefinals.csv
+  finalscsv: jb_listview/jb_listview_finals.csv
+
+  missingrawscsv: data/nlpa_missing_raws.csv
+  target_base: /mnt/nlpa/NLPA-2025-finals-rawchecking/Primary
+  originals: /Users/timparkin/nlpa-2025/ORIGINALS
+
+  inbook_csv: jb_listview/jb_listview_inbook.csv
+
+
+  cert_folder: photo_certs_test
+  photo_certs_emails: photo_certs_emails
+  certs_csv: certs/certs.csv
+  projects_csv: certs/projects.csv
+  portfolio_csv: jb_listview/jb_listview_portfolios_finals.csv
+  portfolio_module: portfolio_out_all_2025.py
+  social_media_dir: /mnt/nlpa/NLPA-2025-socialmedia
+
+  projectargs:
+    projectsall: jb_listview/jb_listview_projects.csv
+    secondjudging: jb_listview/jb_listview_projects_secondjudging.csv
+    showntojudges: jb_listview/jb_listview_projects_showntojudges.csv
+    secondround: jb_listview/jb_listview_projects_secondround.csv
+    semifinals: jb_listview/jb_listview_projects_semifinals.csv
+    livefinals: jb_listview/jb_listview_projects_livefinals.csv
+
+  category_score_threshold:
+    GS: 3.0
+    IL: 3.2
+    AD: 2.4
+    P: 3.0
+
+
+  make_projects: false
+  make_portfolios: false
+  make_entries: false
+  make_socialmedia: true
+
+  year: 2025
+
+judges:
+  Jennifer Renwick: R
+  Jack Lodge: L
+  Anna Morgan: M
+  Matt Palmer: P
+  Hougaard Malan: H
+
+organisers:
+  Tim Parkin: T
+  Matt Payne: Y
+  Alex Nail: N
+  Rajesh Jyosthiswaran: J
+  Matt Palmer: M
+
+caption: R4.L5.M1.P5.H5 T4.Y3.N3.R5.P3
+
+category_lookup:
+  GS: 1 - Grand Scenic
+  IL: 2 - Intimate Landscape
+  AD: 3 - Abstract and Details
+  P1: 4 - Project
+  P2: 4 - Project
+  undefined: undefined
+
+primary: 1 - Primary
+secondary: 3 - Secondary
+
+# MAKE SURE YOU DON"T USE THE SAME ENTRY_ID FOR TWO CATEGORIES (e.g. POTY and GS o PROJECT)
+cat_winners:
+  AD:
+    # Margrit Schwarz
+    65632: "Photograph of the Year, Winner"
+    # Ilan Shacham
+    54673: Winner
+    # Alex Pansier
+    53123: Runner Up
+    # Lukas Furlan
+    54046: Third Place
+    # Lukas Furlan
+    58601: Highly Commended
+    # Scott Oller
+    64157: Highly Commended
+  GS:
+    # Luis Vilariño
+    53322: Winner
+    # Samuel Markham
+    55553: Runner Up
+    # Gunar Streu
+    53855: Third Place
+    # Benjamin Maze
+    57008: Highly Commended
+    # Joshua Cripps
+    58913: Highly Commended
+  IL:
+    # David Shaw
+    53759: Winner
+    # Vojtech Schmidt
+    61786: Runner Up
+    # Jude Dizon
+    62740: Third Place
+    # 祐也 若松
+    61003: Highly Commended
+    # Roger Kristiansen
+    62732: Highly Commended
+
+special_winners:
+  DL:
+    # Louis Ouimet
+    63587: Winner
+    # John Meragias
+    55715: Runner Up
+    # Prajit Ravindran
+    61051: Third Place
+  FW:
+    # Vojtech Schmidt
+    61790: Winner
+    # Rupert Kogler
+    63311: Runner Up
+    # Pal Hermansen
+    59066: Third Place
+  IB:
+    # Patrick Krohn
+    58639: Winner
+    # Anton Gorlin
+    56761: Runner Up
+    # Jack Krohn
+    65811: Third Place
+  M:
+    # Ross Davidson
+    59594: Winner
+    # Scott Oller
+    64172: Runner Up
+    # Lukáš Veselý
+    60354: Third Place
+  RG:
+    # Spencer Cox
+    54962: Winner
+    # Doug Hammer
+    55742: Runner Up
+    # Torsten Pull
+    61125: Third Place
+  S:
+    # Lizzie Shepherd
+    61820: Winner
+    # Philipp Jakesch
+    57452: Runner Up
+    # Robert Birkby
+    55893: Third Place
+  TL:
+    # Grégoire Pansu
+    64433: Winner
+    # Mathias Libor
+    56949: Runner Up
+    # Grégoire Pansu
+    64429: Third Place
+  WL:
+    # Kenny Muir
+    57958: Winner
+    # Franka Gabler
+    60086: Runner Up
+    # Andrea Lazzarini
+    65250: Third Place
+
+poty:
+# Joy Kachina
+    4360:
+        id: "Photographer of the Year 2025, Winner"
+        entries:
+          - 60250
+          - 60251
+          - 60253
+          - 60254
+          - 60258
+          - 60260
+          - 60263
+          - 60265
+          - 62438
+# Lukas Furlan
+    5815:
+        id: "Photographer of the Year 2025, Runner Up"
+        entries:
+          - 54043
+          - 54044
+          - 54045
+          - 54046
+          - 58582
+          - 58601
+          - 58602
+          - 58604
+          - 58794
+# Matt Jackisch
+    670:
+        id: "Photographer of the Year 2025, Third Place"
+        entries:
+          - 58560
+          - 58561
+          - 58562
+          - 58563
+          - 58566
+          - 58569
+          - 58570
+          - 58572
+          - 58573
+# Scott Oller
+    1375:
+        id: "Photographer of the Year 2025, Fourth Place"
+        entries:
+          - 64156
+          - 64162
+          - 64163
+          - 64164
+          - 64165
+          - 64167
+          - 64168
+          - 64169
+          - 64172
+# Vojtech Schmidt
+    6113:
+        id: "Photographer of the Year 2025, Fifth Place"
+        entries:
+          - 61785
+          - 61786
+          - 61787
+          - 61788
+          - 61789
+          - 61793
+          - 61795
+          - 61796
+          - 62947
+# Magnus Reneflot
+    2625:
+        id: "Photographer of the Year 2025, Sixth Place"
+        entries:
+          - 59582
+          - 59588
+          - 59621
+          - 59658
+          - 60536
+          - 60547
+          - 60549
+          - 60550
+          - 61255
+
+projects:
+# Hanneke Van Camp
+    1-3511:
+        id: "Project of the Year, Winner"
+        entries:
+          - 61084
+          - 61085
+          - 61086
+          - 61087
+          - 61088
+          - 61089
+          - 61090
+          - 61091
+          - 61092
+          - 61093
+# Feli Hansen
+    1-403:
+        id: "Project of the Year, Runner Up"
+        entries:
+          - 58977
+          - 58978
+          - 58979
+          - 58980
+          - 58981
+          - 58982
+          - 58983
+          - 58984
+          - 58985
+          - 58986
+# Feli Hansen
+    1-235:
+        id: "Project of the Year, Third Place"
+        entries:
+          - 59550
+          - 59551
+          - 59552
+          - 59553
+          - 59554
+          - 59555
+          - 59556
+          - 59557
+          - 59558
+# Lukas Furlan
+    1-5815:
+        id: "Project of the Year, Fourth Place"
+        entries:
+          - 54032
+          - 54033
+          - 54034
+          - 54035
+          - 54036
+          - 54037
+          - 54038
+          - 54039
+          - 54040
+# Joshua Wallace
+    1-6259:
+        id: "Project of the Year, Fifth Place"
+        entries:
+          - 66279
+          - 66280
+          - 66281
+          - 66282
+          - 66283
+          - 66284
+          - 66285
+          - 66286
+          - 66287
+          - 66288
+# Magnus Reneflot
+    1-2625:
+        id: "Project of the Year, Sixth Place"
+        entries:
+          - 60493
+          - 60501
+          - 60507
+          - 60508
+          - 60530
+          - 60531
+          - 60533
+          - 60543
+          - 60561
+          - 61254
